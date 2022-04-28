@@ -1,0 +1,307 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240, 0.4);
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(240, 240, 240, 0.4);
+    
+  }
+  
+  header h1{
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: rgb(13, 13, 13);
+  }
+  
+  header img{
+      height: 75px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(77, 166, 255);
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  nav a:hover{
+    color: rgb(217, 217, 217);
+  }
+  
+  nav a:active{
+    color: rgb(64, 64, 64);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    background-color: rgb(230, 230, 230, 0.6);
+  }
+
+  footer p{
+    padding-top: 2px;
+  }
+  
+  footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo_aesjt {
+    width: 50px;
+    padding-right: 13px;
+  }
+
+  .divisao-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+  
+  .titulos{
+    text-decoration: none;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 153, 255);
+  }
+  
+  .titulos:hover, .fontes:hover{
+    color: rgb(153, 214, 255);
+  }
+  
+  .titulos:active, .fontes:hover{
+    color: rgb(0, 153, 255);
+  }
+  
+  .divisao-1 .imagem img{
+    min-width: 200px;
+    max-width: 300px; 
+  }
+
+  .bloco-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 230px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    margin-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(240, 240, 240, 0.6);
+  }
+  
+  .divisao-1 .titulo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .divisao-1 .texto{
+    flex-basis: 60%;
+  }
+
+  .titulo h2{
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .fontes {
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(0, 153, 255);
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  #fonte_div {
+    min-height: 10px;
+    padding-bottom: 20px;
+  }
+
+  .divisao-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .nome{
+    font-size: 30px;
+    margin-top: 25px;
+    padding-bottom: 15px; 
+    margin-bottom: 10px;
+    margin-left: 125px;
+    padding: 13px;
+    color: rgb(0, 122, 204);
+    border: dashed rgb(0, 122, 204) 2px;
+
+  }
+
+  .paragrafo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    margin-bottom: 15px;
+    padding-left: 20px;
+    margin-right: 30px;
+    padding-right: 50px;    
+    background-color: rgb(240, 240, 240, 0.6);
+  }
+
+  .paragrafo h1{
+    flex-basis: 60%;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px; 
+    padding-left: 50px;
+    color: rgb(51, 173, 255);
+  }
+
+  .paragrafo img {
+    align-self: center;
+    width:30%;
+    padding: 8px;
+  }
+
+  .divisao-2 a{
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+  }
+
+  .video {
+    background-color: rgb(240, 240, 240, 0.6);
+
+    align-self: center;
+  }
+
+  /*----------------------------------------*/
+
+  .divisao-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+
+  }
+
+  .inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .inicio form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    margin-top: 15px;
+    padding-right: 21px;
+    padding-left: 13px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    background-color: rgb(227, 225, 225);
+  }
+  
+  .inicio h1 {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+
+  }
+  
+  .inicio input[type="submit"]{
+    width: 100px;
+    align-self: center;
+    margin-top: 15px;
+  }
+
+  .perguntas {
+    display: none;
+    
+  }
+
+  .perguntas img{
+    align-self: center;
+    width: 30%;
+  }
+
+  #questionario_form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .perguntas p{
+    font-size: 21px;
+  }
+
+  .perguntas input[type="submit"]{
+    align-self: center;
+    width: 40%;
+  }
+
+  .form-check{
+    font-size: 20px;
+  }
+
+  .perguntas h1 {
+    font-size: 27px;
+  }
+
+  #score_board {
+    display: none;
+  }
+
+  #score_board h1{
+    align-self: center;
+  }
+
+  #denovo {
+    margin-top: 10px;
+    width: 150px;
+  }  
+
+  #pontuacao {
+    font-size: 27px;
+  }
+
+/*by: Miguel Almeida*/
